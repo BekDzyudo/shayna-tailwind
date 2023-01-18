@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="public/tailwind.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <style>
+      ul li a:hover {
+        border-bottom: 2px solid gray;
+      }
+      .container {
+        max-width: 1275px !important;
+      }
+    </style>
+  </head>
+  <body class="bg-orange-100">
+    <header class="header py-3">
+      <div class="container mx-auto">
+        <nav class="nav flex justify-between items-center mb-16">
+          <div class="logo">
+            <a href="index.html"><img src="image/Shayna.svg" alt="" /></a>
+          </div>
+          <ul class="navbar flex gap-10">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Start</a>
+            </li>
+            <li>
+              <a href="#">Browse</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Story</a>
+            </li>
+          </ul>
+          <button class="nav_btn p-1">Sign In</button>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="banner_section mb-24">
+        <div class="container mx-auto">
+          <div class="row flex gap-40">
+            <div class="col max max-w-xl">
+              <h1 class="text-6xl font-medium leading-tight mb-8">
+                Learn UI Design From The Real Expert
+              </h1>
+              <p class="text-xl font-light leading-8 mb-12">
+                Stop wasting time browsing around and start learning from our
+                designers for your better career
+              </p>
+              <button class="banner_btn">Get Started</button>
+            </div>
+            <div class="col relative">
+              <img src="image/banner_img.png" alt="" />
+              <img
+                src="image/banner_small_img.png"
+                alt=""
+                class="small_img absolute top-52 -right-8"
+              />
+              <div
+                class="banner_img_title bg-white absolute -bottom-5 left-16 inline-block p-5 rounded-2xl"
+              >
+                <h2>Corellina Xo</h2>
+                <p>UI Designer</p>
+                <div class="card_stars">
+                  <i
+                    style="color: orange"
+                    class="fa fa-star"
+                    aria-hidden="true"
+                  ></i>
+                  <i
+                    style="color: orange"
+                    class="fa fa-star"
+                    aria-hidden="true"
+                  ></i>
+                  <i
+                    style="color: orange"
+                    class="fa fa-star"
+                    aria-hidden="true"
+                  ></i>
+                  <i
+                    style="color: orange"
+                    class="fa fa-star"
+                    aria-hidden="true"
+                  ></i>
+                  <i
+                    style="color: orange"
+                    class="fa fa-star"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="company_logo mb-24">
+        <div class="container mx-auto">
+          <h1 class="text-base font-medium leading-6 mb-8 text-center">
+            Trusted by Global Companies
+          </h1>
+          <div class="row flex gap-16">
+            <img class="ml-56" src="image/apple-11 1.svg" alt="" />
+            <img src="image/Group 13.svg" alt="" />
+            <img src="image/slack-2 1.svg" alt="" />
+            <img src="image/spotify-1 1.svg" alt="" />
+            <img src="image/google-2015 1.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="grow mb-24">
+        <div class="container mx-auto">
+          <h3 class="text-lg font-semibold leading-7 mb-2 text-center">
+            Grow Today
+          </h3>
+          <h1 class="text-3xl font-medium leading-10 mb-20 text-center">
+            Start Your Career
+          </h1>
+          <div class="row flex justify-between gap-7">
+            <div class="col max-w-xs">
+              <img class="w-80" src="image/Group 18.png" alt="" />
+              <div class="card p-5 bg-white max-w-xs rounded-b-2xl">
+                <h1 class="font-bold">Aisyah</h1>
+                <p class="text-gray-700 font-light">I teach how to start UX</p>
+              </div>
+            </div>
+            <div class="col max-w-xs">
+              <img class="w-80" src="image/Group 18 (1).png" alt="" />
+              <div class="card p-5 bg-white max-w-xs rounded-b-2xl">
+                <h1 class="font-bold">Angga</h1>
+                <p class="text-gray-700 font-light">
+                  I teach how to design test
+                </p>
+              </div>
+            </div>
+            <div class="col max-w-xs">
+              <img class="w-80" src="image/Group 18 (2).png" alt="" />
+              <div class="card p-5 bg-white max-w-xs rounded-b-2xl">
+                <h1 class="font-bold">Mabdul</h1>
+                <p class="text-gray-700 font-light">
+                  I teach how to asses design
+                </p>
+              </div>
+            </div>
+            <div class="col max-w-xs">
+              <img class="w-80" src="image/Group 18 (3).png" alt="" />
+              <div class="card p-5 bg-white max-w-xs rounded-b-2xl">
+                <h1 class="font-bold">Wo You</h1>
+                <p class="text-gray-700 font-light">I teach how to do icons</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
